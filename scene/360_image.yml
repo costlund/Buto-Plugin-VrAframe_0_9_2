@@ -1,0 +1,21 @@
+-
+  type: a-scene
+  attribute:
+    embedded: true
+    style:
+      height: rs:height
+      width: rs:width
+  innerHTML:
+    -
+      type: a-sky
+      attribute:
+        src: rs:src
+        rotation: rs:rotation
+    -
+      type: a-text
+      attribute:
+        font: rs:text_font
+        value: rs:text_value
+        width: rs:text_width
+        rotation: rs:text_rotation
+        position: rs:text_position

@@ -1,0 +1,8 @@
+-
+  type: a-scene
+  attribute:
+    embedded: true
+    style:
+      height: 400px
+      width: 100%
+  innerHTML: rs:element
